@@ -20,4 +20,4 @@ useFavicon('https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d
 ## Installation
 
 ```
-$ npm install modify-favicon
+$ npm i react-modify-favicon
