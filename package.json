@@ -1,0 +1,27 @@
+{
+  "name": "modify-favicon",
+  "version": "1.0.0",
+  "description": "Dynamically update your favicon in your react page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShreyashSiddharth/useFavicon.git"
+  },
+  "keywords": [
+    "favicon",
+    "react"
+  ],
+  "author": "shreyashsid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShreyashSiddharth/useFavicon/issues"
+  },
+  "homepage": "https://github.com/ShreyashSiddharth/useFavicon#readme",
+  "dependencies": {
+   
+    "react": "^18.2.0"
+  }
+}
