@@ -1,6 +1,6 @@
 {
   "name": "react-modify-favicon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use to dynamically apply a favicon to every react page works well with react router",
   "main": "index.js",
   "scripts": {
