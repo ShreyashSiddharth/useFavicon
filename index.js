@@ -1,6 +1,6 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 
-module.exports = function useFavicon(url) {
+const useFavicon =(url) =>{
     useEffect(()=>{
         var link = document.querySelector("link[rel~='icon']");
         if (!link) {
@@ -11,5 +11,5 @@ module.exports = function useFavicon(url) {
         link.href = url;
     },[]);
     }
-    
+    export default useFavicon;
 

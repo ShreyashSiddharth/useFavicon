@@ -22,7 +22,8 @@
     "url": "https://github.com/ShreyashSiddharth/useFavicon/issues"
   },
   "homepage": "https://github.com/ShreyashSiddharth/useFavicon#readme",
-  "dependencies": {
-    "react": "^18.2.0"
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
