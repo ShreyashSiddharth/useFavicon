@@ -15,7 +15,15 @@ in order to change the Favicon, you will need to pass the Image **url** as param
 
 ```jsx
 import useFavicon from "react-modify-favicon";
-useFavicon('https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196')
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+const App = ({ title }) => {
+ useFavicon('https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196')
+  return <div />
+}
+
+ReactDOM.render(<App title="New title" />, document.getElementById('root'))
 ```
 
 ## Installation
