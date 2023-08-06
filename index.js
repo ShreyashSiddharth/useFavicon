@@ -11,5 +11,5 @@ const useFavicon =(url) =>{
         link.href = url;
     },[]);
     }
-    export default useFavicon;
+    module.exports=useFavicon;
 
