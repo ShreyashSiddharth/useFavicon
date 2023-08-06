@@ -18,12 +18,12 @@ import useFavicon from "react-modify-favicon";
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-const App = ({ title }) => {
+const App = () => {
  useFavicon('https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196')
   return <div />
 }
 
-ReactDOM.render(<App title="New title" />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
 ```
 
 ## Installation
