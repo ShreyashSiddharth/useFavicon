@@ -29,4 +29,8 @@ ReactDOM.render(<App />, document.getElementById('root'))
 ## Installation
 
 ```
+<<<<<<< HEAD
 npm i react-modify-favicon
+=======
+$ npm install modify-favicon
+>>>>>>> origin/main
